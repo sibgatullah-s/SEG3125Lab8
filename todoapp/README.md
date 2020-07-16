@@ -2442,3 +2442,7 @@ In the future, we might start automatically compiling incompatible third-party m
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+
+## References
+https://stackoverflow.com/questions/48405043/navdropdown-not-set-to-active-when-menuitem-child-link-is-active/48423439#48423439
+https://stackoverflow.com/questions/59939845/react-input-color-picker
