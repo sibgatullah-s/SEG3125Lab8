@@ -35,7 +35,8 @@ body {
 }
 
 .container {
-font-family: 'Lato', sans-serif;
+/* font-family: 'Lato', sans-serif; */
+font-family: 'Playfair Display', sans-serif;
 width: 1000px;
 margin: 0 auto;
 }
@@ -157,7 +158,6 @@ border-left: 17px solid #23468c;
   justify-content: center;
   align-items: center;
 }
-
 .rects {
   display: inline-flex;
 }
@@ -172,13 +172,16 @@ border-left: 17px solid #23468c;
   display: grid;
 }
 
+.colorsel {
+  margin: 10px;
+}
+
 .typep {
   justify-content: center;
   display: grid;
 }
 
 .price {
-  margin: 10px;
   text-align: center;
 }
 
@@ -187,4 +190,20 @@ border-left: 17px solid #23468c;
   align-items: center;
   display: grid;
   grid-template-columns: auto auto;
+}
+
+#part2 {
+  width: 350px;
+}
+
+#calcprice {
+  margin: 10px;
+}
+
+.icons {
+  height: 15px;
+}
+
+.error {
+  background-color: red;
 }

@@ -11,6 +11,10 @@ import 'bootstrap/dist/js/bootstrap.bundle.min'
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
 
+$(function () {
+    $('[data-toggle="tooltip]').tooltip();
+})
+
 // $( document ).ready(function() {	
 //     // progress bar
 //     var back =$(".prev");
